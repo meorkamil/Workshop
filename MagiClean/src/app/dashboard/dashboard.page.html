@@ -1,0 +1,18 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>dashboard</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <ion-item *ngFor="let policy of policies">
+        <ion-label>
+            {{ policy.id }}
+            {{ policy.number }}
+            {{ policy.amount }}
+        </ion-label>
+      </ion-item>
+  
+  
+ 
+</ion-content>
